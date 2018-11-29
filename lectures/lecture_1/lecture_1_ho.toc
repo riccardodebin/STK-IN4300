@@ -1,8 +1,0 @@
-\select@language {english}
-\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
-\beamer@sectionintoc {2}{Overview of supervised learning}{15}{0}{2}
-\beamer@subsectionintoc {2}{1}{Variable types and terminology}{15}{0}{2}
-\beamer@subsectionintoc {2}{2}{Two simple approaches to prediction}{16}{0}{2}
-\beamer@subsectionintoc {2}{3}{Statistical decision theory}{25}{0}{2}
-\beamer@subsectionintoc {2}{4}{Local methods in high dimensions}{35}{0}{2}
-\beamer@subsectionintoc {2}{5}{Data science, statistics, machine learning}{41}{0}{2}

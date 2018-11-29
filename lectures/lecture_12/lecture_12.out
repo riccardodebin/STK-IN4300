@@ -1,8 +1,0 @@
-\BOOKMARK [2][]{Outline0.1}{Ensemble Learning}{}% 1
-\BOOKMARK [3][]{Outline0.1.1.3}{Introduction}{Outline0.1}% 2
-\BOOKMARK [3][]{Outline0.1.2.4}{Boosting and regularization path}{Outline0.1}% 3
-\BOOKMARK [3][]{Outline0.1.3.11}{The ``bet on sparsity'' principle}{Outline0.1}% 4
-\BOOKMARK [2][]{Outline0.2}{High-Dimensional Problems: p N}{}% 5
-\BOOKMARK [3][]{Outline0.2.1.18}{When p is much larger than N}{Outline0.2}% 6
-\BOOKMARK [3][]{Outline0.2.2.23}{Computational short-cuts when pN}{Outline0.2}% 7
-\BOOKMARK [3][]{Outline0.2.3.28}{Supervised Principal Component}{Outline0.2}% 8

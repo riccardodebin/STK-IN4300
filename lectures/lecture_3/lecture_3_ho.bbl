@@ -1,9 +1,0 @@
-\begin{thebibliography}{1}
-\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-
-\bibitem[{Hoerl \& Kennard(1970)}]{HoerlKennard1970}
-\textsc{Hoerl, A.~E.} \& \textsc{Kennard, R.~W.} (1970).
-\newblock Ridge regression: Biased estimation for nonorthogonal problems.
-\newblock \textit{Technometrics} \textbf{12}, 55--67.
-
-\end{thebibliography}

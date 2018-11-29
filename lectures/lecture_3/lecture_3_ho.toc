@@ -1,9 +1,0 @@
-\select@language {english}
-\beamer@sectionintoc {1}{Model Assessment and Selection}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{Cross-Validation}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{Bootstrap Methods}{10}{0}{1}
-\beamer@sectionintoc {2}{Methods using Derived Input Directions}{20}{0}{2}
-\beamer@subsectionintoc {2}{1}{Principal Component Regression}{21}{0}{2}
-\beamer@subsectionintoc {2}{2}{Partial Least Squares}{26}{0}{2}
-\beamer@sectionintoc {3}{Shrinkage Methods}{31}{0}{3}
-\beamer@subsectionintoc {3}{1}{Ridge Regression}{31}{0}{3}

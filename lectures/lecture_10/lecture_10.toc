@@ -1,8 +1,0 @@
-\select@language {english}
-\beamer@sectionintoc {1}{AdaBoost}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{Introduction}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{algorithm}{6}{0}{1}
-\beamer@sectionintoc {2}{Statistical Boosting}{15}{0}{2}
-\beamer@subsectionintoc {2}{1}{Boosting as a forward stagewise additive modelling}{15}{0}{2}
-\beamer@subsectionintoc {2}{2}{Why exponential loss?}{17}{0}{2}
-\beamer@subsectionintoc {2}{3}{Gradient boosting}{20}{0}{2}
