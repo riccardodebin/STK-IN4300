@@ -1,0 +1,36 @@
+\begin{thebibliography}{5}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{B{\"u}hlmann \& Yu(2003)}]{BuehlmannYu2003}
+\textsc{B{\"u}hlmann, P.} \& \textsc{Yu, B.} (2003).
+\newblock Boosting with the {L}$_2$ loss: regression and classification.
+\newblock \textit{Journal of the American Statistical Association} \textbf{98},
+  324--339.
+
+\bibitem[{De~Bin(2016)}]{Debin2016a}
+\textsc{De~Bin, R.} (2016).
+\newblock Boosting in {C}ox regression: a comparison between the
+  likelihood-based and the model-based approaches with focus on the
+  {R}-packages {CoxBoost} and mboost.
+\newblock \textit{Computational Statistics} \textbf{31}, 513--531.
+
+\bibitem[{Seibold et~al.(2016)Seibold, Bernau, Boulesteix \&
+  De~Bin}]{SeiboldAl2016}
+\textsc{Seibold, H.}, \textsc{Bernau, C.}, \textsc{Boulesteix, A.-L.} \&
+  \textsc{De~Bin, R.} (2016).
+\newblock On the choice and influence of the number of boosting steps.
+\newblock Tech. Rep. 188, University of Munich.
+
+\bibitem[{Tutz \& Binder(2006)}]{TutzBinder2006}
+\textsc{Tutz, G.} \& \textsc{Binder, H.} (2006).
+\newblock Generalized additive modeling with implicit variable selection by
+  likelihood-based boosting.
+\newblock \textit{Biometrics} \textbf{62}, 961--971.
+
+\bibitem[{Tutz \& Binder(2007)}]{TutzBinder2007}
+\textsc{Tutz, G.} \& \textsc{Binder, H.} (2007).
+\newblock Boosting ridge regression.
+\newblock \textit{Computational Statistics \& Data Analysis} \textbf{51},
+  6044--6059.
+
+\end{thebibliography}

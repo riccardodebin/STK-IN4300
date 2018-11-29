@@ -1,0 +1,134 @@
+\documentclass[mathserif,10pt,handout]{beamer}
+\usepackage{pgfpages}
+\pgfpagesuselayout{4 on 1}[a4paper, border shrink=5mm, landscape]
+
+\usepackage[utf8]{inputenc}
+\usepackage{default}
+
+\begin{document}
+\begin{frame}{Solution Exercise 5.4 (by Kristoffer H. Hellton?)}
+Natural cubic splines have the additional constraints of being linear beyond the boundary knots. Start from the truncated power series:
+$$f(X) = \sum_{j=0}^{3}\beta_{j}X^j+ \sum_{k=1}^K\theta_{k}(X-\xi_{k})^3_{+}$$ 
+\pause
+For the left boundary knot 
+$$f(X) = \sum_{j=0}^{3}\beta_{j}X^j, \quad X < \xi_{1} $$
+and we need the constraints $\beta_{2}=0$ and $\beta_{3}=0$ for the function to be linear.  
+\end{frame}
+
+\begin{frame}
+For the right boundary knot
+\begin{align*}
+f(X) &= \sum_{j=0}^{3}\beta_{j}X^j+\sum_{k=1}^K\theta_{k}(X-\xi_{k})^3, \quad  \xi_{K} \leq X \\
+&= \sum_{j=0}^{3}\beta_{j}X^j + \sum_{k=1}^K\theta_{k}X^3 - \sum_{k=1}^K\theta_{k}\xi_{k} 3 X^2  + \sum_{k=1}^K\theta_{k} \xi_{k}^2 3 X  - \sum_{k=1}^K\theta_{k} \xi_{k}^3 
+\end{align*}
+\pause
+and we need the constraints $ \theta_{k}=0 $ and  $\sum_{k=1}^K \xi_{k}\theta_{k}=0$ for the function to be linear.  
+\end{frame}
+
+
+\begin{frame}
+The truncated power series representation
+$$f(X) = \sum_{j=0}^{3}\beta_{j}X^j+ \sum_{k=1}^K\theta_{k}(X-\xi_{k})^3_{+}$$
+with the  constraints on the coefficients
+$$\beta_{2}=0,\quad\beta_{3}=0, \quad \sum_{k=1}^K  \theta_{k}=0,\quad\sum_{k=1}^K \xi_{k}\theta_{k}=0$$
+\pause
+Taking into account first the $\beta$ restrictions, we can construct a new basis with the first two basis functions as
+$$ f(X) = \beta_{0}\cdot \underbrace{1}_{N_{1}(x)}+\beta_{1}\underbrace{X}_{N_{2}(x)}+\;0 \cdot X^2+0\cdot X^3+\cdots $$
+\end{frame}
+
+\begin{frame}
+For the $\theta$ constraints, we utilize that 
+$$\sum_{k=1}^{K-2}  \theta_{k}= -\theta_{K-1}-\theta_{K},\qquad\sum_{k=1}^{K-2} \xi_{k}\theta_{k}=- \xi_{K-1}\theta_{K-1}- \xi_{K}\theta_{K} $$
+\pause
+Take out the last two terms of the trucated basis functions: \pause
+$$\sum_{k=1}^K\theta_{k}(X-\xi_{k})^3_{+} = \sum_{k=1}^{K-2}\theta_{k}(X-\xi_{k})^3_{+} + \theta_{K-1}(X-\xi_{K-1})^3_{+}+\theta_{K}(X-\xi_{K})^3_{+}, $$\pause
+and use the $\theta$ constraints to show that the two last terms can be rewritten as sums over the $N-2$ first terms.
+\end{frame}
+
+\begin{frame}{}
+Start with the second last term and ``multiply by 1'' and ``add 0'' 
+\begin{align*}
+\onslide<1->{\theta_{K-1}(X-\xi_{K-1})^3_{+}&=} \onslide<2->{\frac{(X-\xi_{K})^3_{+}}{(\xi_{K}-\xi_{K-1})}\left(\theta_{K-1}\xi_{K}-\theta_{K-1}\xi_{K-1}\right) }\\
+\onslide<3->{
+&= \frac{(X-\xi_{K-1})^3_{+}}{(\xi_{K}-\xi_{K-1})}\left(\theta_{K-1}\xi_{K}-\theta_{K-1}\xi_{K-1}+\underbrace{\theta_{K}\xi_{K}- \theta_{K}\xi_{K}}_{0}\right)
+} \\
+\onslide<4->{
+&= \frac{(X-\xi_{K-1})^3_{+}}{(\xi_{K}-\xi_{K-1})}\left(\xi_{K}(\theta_{K-1}+\theta_{K})-\xi_{K-1}\theta_{K-1}- \xi_{K}\theta_{K}\right)
+} \\
+\onslide<5->{
+&= \frac{(X-\xi_{K-1})^3_{+}}{(\xi_{K}-\xi_{K-1})}\left(-\xi_{K}\sum_{k=1}^{K-2}\theta_{k}+\sum_{k=1}^{K-2}\theta_{k} \xi_{k}\right)
+} \\
+\onslide<6->{
+&= -\frac{(X-\xi_{K-1})^3_{+}}{(\xi_{K}-\xi_{K-1})}\sum_{k=1}^{K-2}\theta_{k}\left(\xi_{K}- \xi_{k}\right)
+}\\
+\onslide<7->{
+&= -\sum_{k=1}^{K-2}\theta_{k}\left(\xi_{K}- \xi_{k}\right)\frac{(X-\xi_{K-1})^3_{+}}{(\xi_{K}-\xi_{K-1})}}
+\end{align*}
+\end{frame}
+
+\begin{frame}{}
+Then, take the last term, and do the same
+\begin{align*}
+\onslide<1->{\theta_{K}(X-\xi_{K})^3_{+}&=} \onslide<2->{%\frac{(X-\xi_{K})^3_{+}}{(\xi_{K}-\xi_{K-1})}\left(\theta_{K-1}\xi_{K}-\theta_{K-1}\xi_{K-1}\right) }\\
+%\onslide<3->{
+%&= 
+\frac{(X-\xi_{K})^3_{+}}{(\xi_{K}-\xi_{K-1})}\left(\theta_{K}\xi_{K}-\theta_{K}\xi_{K-1}+\underbrace{\theta_{K-1}\xi_{K-1}- \theta_{K-1}\xi_{K-1}}_{0}\right)
+} \\
+\onslide<3->{
+&= \frac{(X-\xi_{K})^3_{+}}{(\xi_{K}-\xi_{K-1})}\left(-\xi_{K-1}(\theta_{K-1}+\theta_{K})+\xi_{K-1}\theta_{K-1}+ \xi_{K}\theta_{K}\right)
+} \\
+\onslide<4->{
+&= \frac{(X-\xi_{K})^3_{+}}{(\xi_{K}-\xi_{K-1})}\left(\xi_{K-1}\sum_{k=1}^{K-2}\theta_{k}-\sum_{k=1}^{K-2}\theta_{k} \xi_{k}\right)
+} \\
+\onslide<5->{
+&= (X-\xi_{K})^3_{+}\sum_{k=1}^{K-2}\theta_{k} \frac{\xi_{K}- \xi_{k}}{(\xi_{K}-\xi_{K-1})}
+}\\
+\onslide<6->{
+&= (X-\xi_{K})^3_{+}\sum_{k=1}^{K-2}\theta_{k} (\xi_{K}-\xi_{k})\frac{\xi_{K-1}- \xi_{k} +\xi_{K}-\xi_{K} }{(\xi_{K}-\xi_{K-1})(\xi_{K}-\xi_{k})}
+}\\
+\onslide<7->{
+&= (X-\xi_{K})^3_{+}\sum_{k=1}^{K-2}\theta_{k} (\xi_{K}-\xi_{k})\left(\frac{1}{\xi_{K}-\xi_{K-1}} - \frac{1}{\xi_{K}-\xi_{k}} \right)}
+\end{align*}
+\end{frame}
+
+\begin{frame}{}
+Then, we combine the two expressions 
+\begin{align*}
+\onslide<1->{\sum_{k=1}^K\theta_{k}(X-\xi_{k})^3_{+} &= \sum_{k=1}^{K-2}\theta_{k}(X-\xi_{k})^3_{+} + \theta_{K-1}(X-\xi_{K-1})^3_{+}+\theta_{K}(X-\xi_{K})^3_{+}, }
+\\
+\onslide<2->{
+&= \sum_{k=1}^{K-2}\theta_{k}(X-\xi_{k})^3_{+}} \onslide<3->{-\sum_{k=1}^{K-2}\theta_{k}\left(\xi_{K}- \xi_{k}\right)\frac{(X-\xi_{K-1})^3_{+}}{(\xi_{K}-\xi_{K-1})}}\\
+\onslide<4->{&+ (X-\xi_{K})^3_{+}\sum_{k=1}^{K-2}\theta_{k} (\xi_{K}-\xi_{k})\left(\frac{1}{\xi_{K}-\xi_{K-1}} - \frac{1}{\xi_{K}-\xi_{k}} \right)}\\
+\onslide<5->{
+&= \sum_{k=1}^{K-2}\theta_{k}(\xi_{K}- \xi_{k}) \frac{(X-\xi_{k})^3_{+}}{\xi_{K}- \xi_{k}} -\sum_{k=1}^{K-2}\theta_{k}(\xi_{K}- \xi_{k})\frac{(X-\xi_{K-1})^3_{+}}{(\xi_{K}-\xi_{K-1})}\\
+&+ \sum_{k=1}^{K-2}\theta_{k} (\xi_{K}-\xi_{k})\left(\frac{(X-\xi_{K})^3_{+}}{\xi_{K}-\xi_{K-1}} - \frac{(X-\xi_{K})^3_{+}}{\xi_{K}-\xi_{k}} \right)}\\
+\vdots&
+\end{align*}
+\end{frame}
+
+\begin{frame}{}
+
+\begin{align*}
+\vdots& \\
+\onslide<1->{
+=\sum_{k=1}^{K-2}\theta_{k} (\xi_{K}-\xi_{k})&\left(
+\frac{(X-\xi_{k})^3_{+}}{\xi_{K}-\xi_{k}} -\frac{(X-\xi_{K-1})^3_{+}}{\xi_{K}-\xi_{K-1}} + \frac{(X-\xi_{K})^3_{+}}{\xi_{K}-\xi_{K-1}} - \frac{(X-\xi_{K})^3_{+}}{\xi_{K}-\xi_{k}} \right)
+}\\
+\onslide<2->{
+= \sum_{k=1}^{K-2}\theta_{k} (\xi_{K}-\xi_{k})&\left(
+\frac{(X-\xi_{k})^3_{+}-(X-\xi_{K})^3_{+}}{\xi_{K}-\xi_{k}} -\left( \frac{(X-\xi_{K-1})^3_{+}-(X-\xi_{K})^3_{+}}{\xi_{K}-\xi_{K-1}}\right) \right)
+ }%\\
+% \onslide<4->{
+% = \sum_{k=1}^{K-2}\theta_{k} (\xi_{K}-\xi_{k})&\left(
+% d_{k}(X) -d_{K-1}(X) \right),
+% }
+\end{align*}
+\onslide<3->{Therefore,
+$$\sum_{k=1}^K\theta_{k}(X-\xi_{k})^3_{+}=\sum_{k=1}^{K-2}\theta_{k} (\xi_{K}-\xi_{k})\left(
+d_{k}(X) -d_{K-1}(X) \right),$$
+where 
+$$d_{k}(X)=\frac{(X-\xi_{k})^3_{+}-(X-\xi_{K})^3_{+}}{\xi_{K}-\xi_{k}}$$}
+\end{frame}
+
+
+\end{document}

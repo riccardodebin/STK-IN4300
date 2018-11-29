@@ -1,0 +1,11 @@
+\select@language {english}
+\beamer@sectionintoc {1}{Linear Methods for Regression}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Linear Regression Models and Least Squares}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Subset selection}{6}{0}{1}
+\beamer@sectionintoc {2}{Model Assessment and Selection}{9}{0}{2}
+\beamer@subsectionintoc {2}{1}{Bias, Variance and Model Complexity}{9}{0}{2}
+\beamer@subsectionintoc {2}{2}{The Bias--Variance Decomposition}{18}{0}{2}
+\beamer@subsectionintoc {2}{3}{Optimism of the Training Error Rate}{23}{0}{2}
+\beamer@subsectionintoc {2}{4}{Estimates of In-Sample Prediction Error}{29}{0}{2}
+\beamer@subsectionintoc {2}{5}{The Effective Number of Parameters}{32}{0}{2}
+\beamer@subsectionintoc {2}{6}{The Bayesian Approach and BIC}{34}{0}{2}

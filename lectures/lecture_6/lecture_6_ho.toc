@@ -1,0 +1,11 @@
+\select@language {english}
+\beamer@sectionintoc {1}{Kernel Smoothing Methods}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{One dimensional kernel smoothers}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Selecting the width of a kernel}{10}{0}{1}
+\beamer@subsectionintoc {1}{3}{Local linear regression}{14}{0}{1}
+\beamer@subsectionintoc {1}{4}{Local polynomial regression}{19}{0}{1}
+\beamer@subsectionintoc {1}{5}{Local regression in $\mathds {R}^p$}{24}{0}{1}
+\beamer@subsectionintoc {1}{6}{Structured local regression models in $\mathds {R}^p$}{27}{0}{1}
+\beamer@subsectionintoc {1}{7}{Kernel density estimation}{31}{0}{1}
+\beamer@subsectionintoc {1}{8}{Mixture models for density estimation}{34}{0}{1}
+\beamer@sectionintoc {2}{Nonparametric Density Estimation with a Parametric Start}{36}{0}{2}

@@ -1,0 +1,25 @@
+\begin{thebibliography}{4}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{B{\"u}hlmann(2006)}]{Buehlmann2006}
+\textsc{B{\"u}hlmann, P.} (2006).
+\newblock Boosting for high-dimensional linear models.
+\newblock \textit{The Annals of Statistics} \textbf{34}, 559--583.
+
+\bibitem[{Friedman et~al.(2000)Friedman, Hastie \& Tibshirani}]{FriedmanAl2000}
+\textsc{Friedman, J.}, \textsc{Hastie, T.} \& \textsc{Tibshirani, R.} (2000).
+\newblock Additive logistic regression: a statistical view of boosting.
+\newblock \textit{The Annals of Statistics} \textbf{28}, 337--407.
+
+\bibitem[{Mayr et~al.(2014)Mayr, Binder, Gefeller \& Schmid}]{MayrAl2014b}
+\textsc{Mayr, A.}, \textsc{Binder, H.}, \textsc{Gefeller, O.} \&
+  \textsc{Schmid, M.} (2014).
+\newblock Extending statistical boosting.
+\newblock \textit{Methods of Information in Medicine} \textbf{53}, 428--435.
+
+\bibitem[{Schapire \& Freund(2014)}]{SchapireFreund2014}
+\textsc{Schapire, R.~E.} \& \textsc{Freund, Y.} (2014).
+\newblock \textit{Boosting: Foundations and Algorithms}.
+\newblock MIT Press, Cambridge.
+
+\end{thebibliography}

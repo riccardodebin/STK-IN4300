@@ -1,0 +1,7 @@
+\select@language {english}
+\beamer@sectionintoc {1}{Gradient Boosting}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{review}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{L$_2$ boosting with linear learner}{5}{0}{1}
+\beamer@sectionintoc {2}{Likelihood-based Boosting}{27}{0}{2}
+\beamer@subsectionintoc {2}{1}{introduction}{27}{0}{2}
+\beamer@sectionintoc {3}{Tree-based boosting}{37}{0}{3}

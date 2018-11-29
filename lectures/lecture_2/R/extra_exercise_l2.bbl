@@ -1,0 +1,11 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Royston \& Sauerbrei(2008)}]{RoystonSauerbrei2008}
+\textsc{Royston, P.} \& \textsc{Sauerbrei, W.} (2008).
+\newblock \textit{Multivariable Model-building: a pragmatic approach to
+  regression anaylsis based on fractional polynomials for modelling continuous
+  variables}.
+\newblock Wiley, Chichester.
+
+\end{thebibliography}

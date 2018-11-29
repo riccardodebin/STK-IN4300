@@ -1,0 +1,45 @@
+\begin{thebibliography}{7}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Breiman(1995)}]{Breiman1995}
+\textsc{Breiman, L.} (1995).
+\newblock Better subset regression using the nonnegative garrote.
+\newblock \textit{Technometrics} \textbf{37}, 373--384.
+
+\bibitem[{Fan \& Li(2001)}]{FanLi2001}
+\textsc{Fan, J.} \& \textsc{Li, R.} (2001).
+\newblock Variable selection via nonconcave penalized likelihood and its oracle
+  properties.
+\newblock \textit{Journal of the American Statistical Association} \textbf{96},
+  1348--1360.
+
+\bibitem[{Knight \& Fu(2000)}]{KnightFu2000}
+\textsc{Knight, K.} \& \textsc{Fu, W.} (2000).
+\newblock Asymptotics for lasso-type estimators.
+\newblock \textit{Annals of Statistics} \textbf{28}, 1356--1378.
+
+\bibitem[{Park \& Casella(2008)}]{ParkCasella2008}
+\textsc{Park, T.} \& \textsc{Casella, G.} (2008).
+\newblock The {B}ayesian lasso.
+\newblock \textit{Journal of the American Statistical Association}
+  \textbf{103}, 681--686.
+
+\bibitem[{Tibshirani(1996)}]{Tibshirani1996}
+\textsc{Tibshirani, R.} (1996).
+\newblock Regression shrinkage and selection via the lasso.
+\newblock \textit{Journal of the Royal Statistical Society. Series B
+  (Methodological)} \textbf{58}, 267--288.
+
+\bibitem[{Yuan \& Lin(2006)}]{YuanLin2006}
+\textsc{Yuan, M.} \& \textsc{Lin, Y.} (2006).
+\newblock Model selection and estimation in regression with grouped variables.
+\newblock \textit{Journal of the Royal Statistical Society: Series B
+  (Methodological)} \textbf{68}, 49--67.
+
+\bibitem[{Zou(2006)}]{Zou2006}
+\textsc{Zou, H.} (2006).
+\newblock The adaptive lasso and its oracle properties.
+\newblock \textit{Journal of the American Statistical Association}
+  \textbf{101}, 1418--1429.
+
+\end{thebibliography}
