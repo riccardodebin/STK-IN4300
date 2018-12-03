@@ -1,0 +1,9 @@
+\select@language {english}
+\beamer@sectionintoc {1}{Feature Assessment when $p\gg N$}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Feature Assessment and Multiple Testing Problem}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{The false discovery rate}{14}{0}{1}
+\beamer@sectionintoc {2}{Stability Selection}{19}{0}{2}
+\beamer@subsectionintoc {2}{1}{Introduction}{19}{0}{2}
+\beamer@subsectionintoc {2}{2}{Selection probability}{22}{0}{2}
+\beamer@subsectionintoc {2}{3}{Stability path}{23}{0}{2}
+\beamer@subsectionintoc {2}{4}{Choice of regularization}{27}{0}{2}

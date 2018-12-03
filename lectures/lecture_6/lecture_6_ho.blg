@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: lecture_6_ho.aux
+The style file: ../../../../support/biometrika.bst
+Database file #1: ../../../../support/biblio.bib
+You've used 2 entries,
+            2826 wiz_defined-function locations,
+            643 strings with 5024 characters,
+and the built_in function-call counts, 924 in all, are:
+= -- 88
+> -- 36
+< -- 2
++ -- 14
+- -- 12
+* -- 76
+:= -- 166
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 13
+chr.to.int$ -- 2
+cite$ -- 2
+duplicate$ -- 44
+empty$ -- 70
+format.name$ -- 22
+if$ -- 179
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 3
+newline$ -- 14
+num.names$ -- 8
+pop$ -- 17
+preamble$ -- 1
+purify$ -- 12
+quote$ -- 0
+skip$ -- 26
+stack$ -- 0
+substring$ -- 47
+swap$ -- 9
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 15
+warning$ -- 0
+while$ -- 8
+width$ -- 0
+write$ -- 28

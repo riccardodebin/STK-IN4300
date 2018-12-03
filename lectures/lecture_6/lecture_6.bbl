@@ -1,0 +1,14 @@
+\begin{thebibliography}{2}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Azzalini \& Scarpa(2012)}]{AzzaliniScarpa2012}
+\textsc{Azzalini, A.} \& \textsc{Scarpa, B.} (2012).
+\newblock \textit{Data Analysis and Data Mining: An introduction}.
+\newblock Oxford University Press, New York.
+
+\bibitem[{Hjort \& Glad(1995)}]{HjortGlad1995}
+\textsc{Hjort, N.~L.} \& \textsc{Glad, I.~K.} (1995).
+\newblock Nonparametric density estimation with a parametric start.
+\newblock \textit{The Annals of Statistics} \textbf{23}, 882--904.
+
+\end{thebibliography}

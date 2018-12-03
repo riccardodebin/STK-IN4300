@@ -1,0 +1,6 @@
+\select@language {english}
+\beamer@sectionintoc {1}{Basis Expansions and Regularization}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Piecewise polynomials and splines}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Smoothing splines}{21}{0}{1}
+\beamer@subsectionintoc {1}{3}{Selection of the smoothing parameters}{25}{0}{1}
+\beamer@subsectionintoc {1}{4}{Multidimensional splines}{38}{0}{1}
